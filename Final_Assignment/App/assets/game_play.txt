@@ -1,0 +1,20 @@
+The game consists of several rounds; each round has a team building phase and a quest phase. In the Team Building phase the Leader proposes a Team to complete a Quest – all the players will either approve the proposed team and move to the Quest phase, or reject the proposed Team passing leadership to the next player and repeating the process until a Team is approved. In the Quest phase those players selected to be on the Team will determine if the quest is successful. 
+
+Choose your team wisely. Approve only teams where you trust everyone. Even a single evil player on the team is enough for failure.
+
+
+Team assignment: After appropriate discussion, the leader takes the required number of team tokens and assigns each team token to any player. 
+
+The leader can be on the Team, but it is not required to be so. Note a player may only be assigned one team token.
+
+Discuss, discuss, discuss. All the players should participate in helping the Leader make the right Choice of Players to be on the Team. Active and logical discussion is a great way to catch Mordred’s agents in their webs of deceit. 
+
+
+Team vote: After appropriate discussion, the Leader calls for a vote on the Team assignments. 
+
+The Leader is proposing the Team – but all the players have a Vote in whether they accept or reject the proposal. The Leader can be Evil, or one of the players chosen could be a mistake. Don’t feel that you need to accept all the proposed teams. If you reject the team then a new leader can propose a different team, maybe one without any Evil players on it. 
+
+Each player, including the Leader, secretly selects one vote card. When all players have their selected vote card ready, the leader asks for the votes to be revealed. All vote tokens are flipped over so everyone can see how you voted. The team is approved if the majority accepts. If the team is approved, play continues in the Quest phase. If the team is rejected (a tied vote is also rejection), the Leader passes clockwise and the team building phase is repeated. 
+
+
+Evil wins the game if five teams are rejected in a single round (5 consecutive failed votes).

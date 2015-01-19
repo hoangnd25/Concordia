@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="resistance.avalon"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/avalon_icon"
+        android:label="@string/app_name">
+        <activity
+            android:name="resistance.avalon.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RuleContent"
+            android:label="Rules Content">
+        </activity>
+        <activity android:name=".PlayerNames"
+            android:label="Player Names">
+        </activity>
+        <activity android:name=".NextPlayer"
+            android:label="Player">
+        </activity>
+        <activity android:name=".CharacterScreen"
+            android:label="Random Character">
+        </activity>
+        <activity android:name=".FinalScreen"
+            android:label="Ready?">
+        </activity>
+    </application>
+
+</manifest>

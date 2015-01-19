@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="15dp"
+    android:background="@drawable/brick_bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/assigned"
+        android:id="@+id/charactersAssigned"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:text="@string/hunting"
+        android:id="@+id/happyHunting"
+        android:paddingBottom="100dp"
+        android:layout_gravity="center_horizontal" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:text="@string/won"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal" />
+
+<TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="50dp">
+    <TableRow>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/minion"
+            android:id="@+id/mordredWon"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:padding="25dp"
+            android:textColor="#ffff231e"/>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/servant"
+            android:id="@+id/arthurWon"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:padding="25dp"
+            android:textColor="#3399ff"/>
+    </TableRow>
+    </TableLayout>
+</LinearLayout>

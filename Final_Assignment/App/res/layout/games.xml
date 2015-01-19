@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="15dp">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/number"
+                android:padding="5dp"
+                android:textStyle="bold"/>
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/players_array"/>
+        </TableRow>
+        </TableLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/special"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:textStyle="bold"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/merlin"
+        android:id="@+id/merlinCheck"
+        android:checked="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/checkboxDesc"
+        android:text="@string/merlin_desc"
+        android:textStyle="italic"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/percival"
+        android:id="@+id/percivalCheck" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/checkboxDesc"
+        android:text="@string/percival_desc"
+        android:textStyle="italic"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mordred"
+        android:id="@+id/mordredCheck" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/checkboxDesc"
+        android:text="@string/mordred_desc"
+        android:textStyle="italic"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/oberon"
+        android:id="@+id/oberonCheck" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/checkboxDesc"
+        android:text="@string/oberon_desc"
+        android:textStyle="italic"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/morgana"
+        android:id="@+id/morganaCheck" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/checkboxDesc"
+        android:text="@string/morgana_desc"
+        android:textStyle="italic"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:id="@+id/setUpButton"
+        android:layout_marginTop="15dp"
+        android:onClick="setUpGameButton"/>
+
+
+</LinearLayout>

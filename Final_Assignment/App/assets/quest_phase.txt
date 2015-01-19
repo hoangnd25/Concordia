@@ -1,0 +1,13 @@
+The Leader passes a set of Quest cards to each Team member. Each player on the Quest selects a Quest card and plays it face down in front of themselves. The Leader collects and shuffles the played Quest cards before revealing. The Quest is completed successfully only if all the cards are revealed are Success cards. The Quest fails if one(or more) Fail cards have been played.
+
+
+Note: The good players must select the Quest Success card; Evil may select either the Quest Success or Quest Fail card.
+
+Note: The 4th Quest (and only the 4th Quest) in games of 7 or more players requires at least two Quest Fail cards to be a failed Quest.
+
+Note:  It's suggested that two different players shuffle the played and discarded Quest cards before revealing.
+
+Note: It's best to designate a player not on the Team to collect all the discarded Quest cards so that it's clear which cards are played and which are discarded. Shuffle the discarded Quest cards.
+
+
+Indicate a successful Quest on the tableau by placing blue Score marker with Arthur's sigil. A failed quest is shown by placing a red Score marker with Mordred's sigil on the tableau. After the Quest has been completed (either in success or failure), advance the Round marker to the net Quest space on the tableau. The Leader passes clockwise and the next Round beings in the Team building phase.
