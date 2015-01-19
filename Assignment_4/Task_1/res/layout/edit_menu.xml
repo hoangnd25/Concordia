@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#333333"
+    android:padding="10dp">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent" android:layout_height="match_parent"
+            android:stretchColumns="1">
+            <ImageView
+                android:id="@+id/imageMini"
+                android:src="@drawable/ic_launcher"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                />
+            <TableRow>
+                <TextView android:text="@string/name" android:id="@+id/imageNameTextView"
+                    style="@style/FormLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </TextView>
+                <EditText android:layout_width="match_parent"
+                    style="@style/FormFields"
+                    android:id="@+id/imageNameText"
+                    android:imeOptions="actionNext"
+                    android:text="" android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_span="2">
+                </EditText>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="@string/url" android:id="@+id/locationTextView"
+                    style="@style/FormLabel"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content">
+                </TextView>
+                <EditText android:layout_width="match_parent" android:id="@+id/locationText"
+                    style="@style/FormFields"
+                    android:imeOptions="actionNext"
+                    android:text="" android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_span="2">
+                </EditText>
+            </TableRow>
+            <TableRow android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView android:text="Keys:" android:id="@+id/keywordTextView"
+                    style="@style/FormLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </TextView>
+                <EditText android:layout_width="match_parent"
+                    style="@style/FormFields"
+                    android:id="@+id/keywordText"
+                    android:inputType="textMultiLine"
+                    android:imeOptions="actionNext|flagNoEnterAction"
+                    android:text="" android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_span="2">
+                </EditText>
+            </TableRow>
+            <TableRow android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView android:text="Date:" android:id="@+id/datePickerTextView"
+                    android:textSize="14sp"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content">
+                </TextView>
+                <DatePicker
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/datePickerText"
+                    style="@android:style/Widget.DatePicker"
+                    android:clickable="true"
+                    android:focusable="true" />
+            </TableRow>
+            <TableRow android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView android:text="Share?" android:id="@+id/shareToggle"
+                    style="@style/FormLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </TextView>
+                <ToggleButton
+                    style="@style/FormFields"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:id="@+id/shareToggleButton"
+                    android:onClick="onToggleClicked"
+                    android:textOn="Yes"
+                    android:textOff="No"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Author:" android:id="@+id/emailTextView"
+                    style="@style/FormLabel"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content">
+                </TextView>
+                <EditText android:layout_width="match_parent" android:id="@+id/emailText"
+                    style="@style/FormFields"
+                    android:imeOptions="actionNext"
+                    android:text="" android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress">
+                </EditText>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Rating:" android:id="@+id/ratingTextView"
+                    style="@style/FormLabel"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content">
+                </TextView>
+                <EditText android:layout_width="match_parent" android:id="@+id/ratingText"
+                    style="@style/FormFields"
+                    android:imeOptions="actionNext"
+                    android:text="" android:layout_height="wrap_content"
+                    android:inputType="numberSigned|numberDecimal"
+                    android:hint="A number from 0 to 5">
+                </EditText>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>

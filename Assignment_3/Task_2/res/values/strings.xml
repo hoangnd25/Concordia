@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Favourite Foods</string>
+    <string name="title">Yum.</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

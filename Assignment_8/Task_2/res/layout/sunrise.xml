@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="As a ray of white sunlight travels through the atmosphere to an observer, some of the colors are scattered out of the beam by air molecules and airborne particles, changing the final color of the beam the viewer sees. Because the shorter wavelength components, such as blue and green, scatter more strongly, these colors are preferentially removed from the beam.
+        \n\nAt sunrise and sunset, when the path through the atmosphere is longer, the blue and green components are removed almost completely leaving the longer wavelength orange and red hues we see at those times. The remaining reddened sunlight can then be scattered by cloud droplets and other relatively large particles to light up the horizon red and orange.
+        \n\nThe removal of the shorter wavelengths of light is due to Rayleigh scattering by air molecules and particles much smaller than the wavelength of visible light (less than 50 nm in diameter). The scattering by cloud droplets and other particles with diameters comparable to or larger than the sunlight's wavelengths (> 600 nm) is due to Mie scattering and is not strongly wavelength-dependent.
+        \n\nMie scattering is responsible for the light scattered by clouds, and also for the daytime halo of white light around the Sun (forward scattering of white light). Without Mie scattering at sunset and sunrise, the sky along the horizon has only a dull-reddish appearance, while the rest of the sky remains mostly blue and sometimes green."/>
+
+</LinearLayout>

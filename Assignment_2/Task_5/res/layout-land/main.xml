@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    >
+
+    <!-- Welcome Message -->
+    <TextView android:id="@+id/welcomeMsg"
+        android:text="@string/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp"
+        android:textColor="#a4a4a4"
+        />
+
+    <!-- Feet text & input -->
+    <TextView android:id="@+id/feetTextView"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-60dp"
+        android:layout_marginRight="100dp"
+        android:textSize="30sp"
+        android:textColor="#a4a4a4"
+        android:text="Feet:"
+        android:gravity="right"
+        android:layout_gravity="right" />
+    <EditText android:id="@+id/inputFeetTempEditText"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned|numberDecimal"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:maxLength="2"
+        android:text="5"
+        android:layout_marginTop="-50dp"
+        android:layout_marginRight="40dp"
+        android:clickable="true"
+        android:editable="true"
+        android:layout_gravity="right"
+        android:gravity="right" />
+
+    <!-- Inch text & input -->
+    <TextView android:id="@+id/inchTextView"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="100dp"
+        android:textSize="30sp"
+        android:textColor="#a4a4a4"
+        android:text="Inches:"
+        android:gravity="right"
+        android:layout_gravity="right" />
+    <EditText android:id="@+id/inputInchTempEditText"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned|numberDecimal"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:text="8"
+        android:maxLength="2"
+        android:gravity="right"
+        android:layout_marginTop="-50dp"
+        android:layout_marginRight="40dp"
+        android:layout_gravity="right" />
+
+    <!-- Convert button & meter checkbox -->
+    <Button android:id="@+id/convertButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-60dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="#e1e1e1"
+        android:text="Convert"
+        android:background="#090d16"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" />
+    <CheckBox android:id="@+id/checkbox_meter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="-30dp"
+        android:layout_marginLeft="140dp"
+        android:text="@string/meter"
+        android:textColor="#e1e1e1"
+        android:onClick="meterClicked"/>
+
+    <!-- Result -->
+    <TextView android:id="@+id/convertedTempTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="48sp"
+        android:textColor="#ffffff"
+        android:text="172.77 cm"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="45dp"
+        android:layout_gravity="right" />
+
+    <!-- unRealistic Human -->
+    <TextView android:id="@+id/unRealisticHuman"
+        android:text="@string/unRealisticHuman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="-35dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:visibility="visible"/>
+
+</LinearLayout>

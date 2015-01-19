@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Height Converter</string>
+    <string name="meter">meters?</string>
+    <string name="welcome">Type in height</string>
+    <string name="unRealisticHuman">(Bit tall for a human...)</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

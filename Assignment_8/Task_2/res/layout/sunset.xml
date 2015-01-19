@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sunset or sundown is the daily disappearance of the Sun below the western horizon, as a result of Earth's rotation.\n\n
+
+The time of sunset is defined in astronomy as the moment when the trailing edge of the Sun's disk disappears below the horizon. The ray path of light from the setting Sun is highly distorted near the horizon because of atmospheric refraction, making the sunset appear to occur when the Sun’s disk is already about one diameter below the horizon. Sunset is distinct from dusk, which is the time at which the sky becomes completely dark, which occurs when the Sun is approximately eighteen degrees below the horizon. The period between sunset and dusk is called twilight.\n\n
+
+Locations north of the Arctic Circle and south of the Antarctic Circle experience no sunset or sunrise at least one day of the year, when the polar day or the polar night persists continuously for 24 hours.\n\n
+
+Sunset creates unique atmospheric conditions such as the often intense orange and red colors of the Sun and the surrounding sky."/>
+
+</LinearLayout>

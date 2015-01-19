@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyActivity"
+    android:background="#333">
+
+    <TextView android:text="Choose Point Size" android:id="@+id/Title"
+        android:style="@style/FormTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        ></TextView>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="8 pt"
+        android:textColor="#fff"
+        android:onClick="button8pt"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="10 pt"
+        android:textColor="#fff"
+        android:onClick="button10pt"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="12 pt"
+        android:textColor="#fff"
+        android:onClick="button12pt"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="14 pt"
+        android:textColor="#fff"
+        android:onClick="button14pt"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="16 pt"
+        android:textColor="#fff"
+        android:onClick="button16pt"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="18 pt"
+        android:textColor="#fff"
+        android:onClick="button18pt" />
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter in City Details"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText android:layout_width="match_parent"
+        android:id="@+id/cityNameEditText"
+        android:imeOptions="actionNext"
+        android:hint="City Name"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_span="2"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp">
+    </EditText>
+    <EditText android:layout_width="match_parent"
+        android:id="@+id/longitudeEditText"
+        android:imeOptions="actionNext"
+        android:hint="Longitude"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_span="2"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp">
+    </EditText>
+    <EditText android:layout_width="match_parent"
+        android:id="@+id/latitudeEditText"
+        android:imeOptions="actionNext"
+        android:hint="Latitude"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_span="2"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp">
+    </EditText>
+    <EditText android:layout_width="match_parent"
+        android:id="@+id/timeZoneEditText"
+        android:imeOptions="actionNext"
+        android:hint="Time Zone"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_span="2"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp">
+    </EditText>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Add City"
+        android:id="@+id/addCity"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>

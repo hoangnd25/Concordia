@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Meta Data</string>
+    <string name="name">Name:</string>
+    <string name="url">URL:</string>
+    <string name="keys">Keys:</string>
+    <string name="date">Date:</string>
+    <string name="share">Share?</string>
+    <string name="author">Author:</string>
+    <string name="rating">Rating:</string>
+    <string name="hint">A number from 0 to 5</string>
+    <string name="cake">Coffee Cake</string>
+    <string name="dumpling">Hunan Dumpling</string>
+    <string name="filler">Name: Image<br />
+        Date: 11 / 22 / 33</string>
+    <string name="action_settings">Settings</string>
+</resources>

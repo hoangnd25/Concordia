@@ -1,0 +1,93 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#333333"
+    android:padding="10dp">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyActivity"
+    android:background="#333">
+    <TextView android:text="14 Point Size" android:id="@+id/Title"
+        android:style="@style/FormTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        ></TextView>
+        <TextView android:text="Lorem ipsum dolor sit amet
+\n \n \n    Fusce dapibus, quam non consectetur venenatis, diam nibh tristique turpis, eu bibendum est neque vel turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer sodales diam vulputate tincidunt aliquet.
+\n \n \n    Duis luctus, massa id ullamcorper bibendum, arcu velit condimentum ligula, quis rhoncus dolor tellus id ante. Phasellus egestas malesuada libero at pulvinar. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse consequat tempus odio vel elementum. Nullam sit amet erat erat. Nulla imperdiet, ipsum in ornare aliquet, lorem magna maximus purus, in volutpat est mi volutpat quam. Aenean elementum urna in tortor tempor, feugiat varius metus pellentesque. Sed sagittis tempor eros, pharetra porta tellus malesuada vel. Proin ornare lorem et tortor convallis commodo. Suspendisse pulvinar interdum suscipit." android:id="@+id/desc"
+            android:style="@style/FormDesc14p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:stretchColumns="1">
+        <TableRow>
+            <TextView android:text="Name:" android:id="@+id/imageNameTextView"
+                android:style="@style/FormLabel14p"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+            <EditText android:layout_width="match_parent"
+                android:id="@+id/imageNameText"
+                android:imeOptions="actionNext"
+                android:text="" android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="2"
+                android:textColor="#fff">
+            </EditText>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Location:" android:id="@+id/locationTextView"
+                android:style="@style/FormLabel14p"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <EditText android:layout_width="match_parent" android:id="@+id/locationText"
+                android:imeOptions="actionNext"
+                android:text="" android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="2"
+                android:textColor="#fff"></EditText>
+        </TableRow>
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView android:text="Keywords:" android:id="@+id/keywordTextView"
+                android:style="@style/FormLabel14p"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+            <EditText android:layout_width="match_parent"
+                android:id="@+id/keywordText"
+                android:inputType="textMultiLine"
+                android:imeOptions="actionNext|flagNoEnterAction"
+                android:text="" android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_span="2"
+                android:textColor="#fff">
+            </EditText>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Author:" android:id="@+id/emailTextView"
+                android:style="@style/FormLabel14p"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <EditText android:layout_width="match_parent" android:id="@+id/emailText"
+                android:imeOptions="actionNext"
+                android:text="" android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:textColor="#fff"></EditText>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Rating:" android:id="@+id/ratingTextView"
+                android:style="@style/FormLabel14p"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <EditText android:layout_width="match_parent" android:id="@+id/ratingText"
+                android:imeOptions="actionNext"
+                android:text="" android:layout_height="wrap_content"
+                android:inputType="numberSigned|numberDecimal"
+                android:textColor="#fff"></EditText>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
+</ScrollView>

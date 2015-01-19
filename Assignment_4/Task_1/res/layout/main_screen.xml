@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#333333"
+    android:padding="10dp">
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="180dp" android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:stretchColumns="2">
+            <ImageView
+                android:id="@+id/Cake"
+                android:src="@drawable/cake"
+                android:layout_width="fill_parent"
+                android:layout_height="175dp"
+                android:layout_weight="1"
+                android:onClick="cakeClickHandler"
+                android:contentDescription="@string/cake"
+                android:layout_marginBottom="5dp"
+                />
+            <TableRow>
+                <TextView android:text="@string/filler" android:id="@+id/imageNameTextViewCake"
+                    style="@style/FormText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </TextView>
+            </TableRow>
+            <ImageView
+                android:id="@+id/Dumplings"
+                android:src="@drawable/dumpling"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="175dp"
+                android:onClick="dumplingClickHandler"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:contentDescription="@string/dumpling"
+                />
+            <TableRow>
+                <TextView android:text="@string/filler" android:id="@+id/imageNameTextViewDumplings"
+                    style="@style/FormText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </TextView>
+            </TableRow>
+        </TableLayout>
+</ScrollView>

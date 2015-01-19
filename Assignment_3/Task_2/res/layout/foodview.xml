@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+    android:background="#333333">
+	
+	<ImageView
+		android:id="@+id/foodImageView"
+   		android:src="@drawable/cake"
+   		android:layout_width="fill_parent"
+   		android:layout_height="325dp"
+     />
+
+    <TextView
+        android:id="@+id/foodTextView"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#ffffff"
+        />
+
+    <TextView
+        android:id="@+id/foodDescView"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:textStyle="italic"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#ffffff"
+        />
+
+</LinearLayout>
